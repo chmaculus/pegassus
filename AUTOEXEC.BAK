@@ -1,0 +1,22 @@
+@ECHO OFF
+PROMPT $p$g
+
+rem PATH C:\WINDOWS;C:\DOS;c:\xtg;c:\tp7\bin;c:\nc;c:\zip
+PATH C:\WINDOWS;C:\DOS;c:\xtg;c:\tp7\bin;c:\nc;c:\zip;c:\clip52e\bin
+
+SET TEMP=C:\temp
+rem MODE CON CODEPAGE PREPARE=((850) C:\DOS\EGA.CPI)
+rem MODE CON CODEPAGE SELECT=850
+rem LH /L:2,17024 KEYB SP,,C:\DOS\KEYBOARD.SYS
+rem c:\mouse\mouse.exe
+rem C:\WINDOWS\SMARTDRV.EXE
+
+set lib=c:\clip52e\lib
+set bin=c:\clip52e\bin
+set pll=c:\clip52e\pll
+set include=c:\clip52e\include
+set CLIPPER=F190
+
+
+doskey
+ver
